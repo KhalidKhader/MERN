@@ -1,0 +1,315 @@
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.nav{
+  margin-top: 3em;
+  width: 15%;
+  float: left;
+  height: 47vh;
+  background-color: blue;
+}
+
+.block{
+  margin-top: 3em;
+  width: 83%;
+  float: right;
+  height: 60vh;
+  background-color: red;
+  display:flex;
+
+}
+
+.sub{
+  margin-top: 3em;
+  width: 17%;
+  height: 37vh;
+  background-color: yellow;
+  width: 26%;
+}
+
+.card-cont{
+  display: grid;
+  column-gap: 1px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.card{
+border-radius: 4px;
+border-color: #61dafb;
+width:250px;
+height: 180px;
+padding: 2px 2px;
+margin: 2px 2px;
+}
+
+
+body{
+
+  background-color: #dde2e3;
+  background-color: rgb(206, 115, 50);
+}
+
+.validatioErr{
+  color:red;
+  margin: 5px 0;
+
+}
+
+.inlineBtn{
+  display: inline;
+  margin-left: 25%;
+  
+}
+button{
+  padding-left: 1px;
+  
+}
+.input{
+  margin-left: 10px;
+}
+.headerNav{
+  
+  background-color: saddlebrown;
+  color: white;
+  height: 150px;
+}
+.headerNav>h1{
+  margin-left: 45%;
+}
+.crewbtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  float: right;
+  margin-right: 20px;
+  border:#282c34 ;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.addbtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  margin-top: 10px;
+  border:#282c34 ;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+  
+ 
+}
+.crewbtn:hover{
+  background-color: #282c34;
+}
+
+.formPirate{
+  display: inline;
+
+}
+.left{
+
+float: left;
+margin-top: 100px;
+margin-left: 100px;
+width: 30%;
+}
+
+.right{
+float: right;
+margin-top: 100px;
+margin-right: 100px;
+width: 30%;
+}
+input{
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 2px solid rgb(245, 237, 237);
+  border-radius: 4px;
+  height: 35px;
+  cursor: pointer;
+}
+
+input[type=number]{
+width: 15%;
+}
+
+
+input[type=text]{
+  width: 40%;
+  }
+
+  input[type=url]{
+    width: 50%;
+    }
+
+label{
+  font-weight:bolder ;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.PirateCatchPhase{
+  width: 800px;
+}
+
+option,select{
+  margin-bottom: 100px;
+  width: 35%;
+  border-radius: 4px;
+  height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+input[type=checkbox]{
+    width: 10%;
+    margin-top: 13px;
+    
+    }
+.checkboxlabel{
+margin-top: 0;
+padding: 0;
+}
+
+.crewComp{
+  display: block;
+ background-color: white;
+ height: 170px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ border-radius: 4px;
+}
+
+.message{
+  width: 23%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.data{
+  width: 73%;
+  float: right;
+  display: block;
+
+}
+
+h1{
+  marin-left:45%;
+}
+
+
+.redBtn{
+  color: white;
+  background-color: red;
+  border: black;
+  z-index: 3;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.blueBtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.buttons{
+  margin-left: 230px;
+  margin-top: 30px;
+}
+.title{
+  margin-left:25%;
+ 
+}
+
+.main{
+  display: grid;
+  grid-template-columns: auto auto;
+
+  margin-top: 80px;
+  font-size: larger;
+  font-weight: bolder;
+
+
+}
+
+.leftLogo{
+  float: left;
+  width: 65%;
+  margin-left: 30px;
+}
+
+.rightLogo{
+  float: right;
+  width: 80%;
+  height: 35vh;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  
+
+
+}
+
+.titleCenter{
+  margin-left: 24%;
+}
+
+img{
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.true{
+  background-color: #1abc9c;
+}
+
+.false{
+  background-color: #bc1a1a;
+
+}

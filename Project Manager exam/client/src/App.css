@@ -1,0 +1,573 @@
+.title {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.nav{
+  margin-top: 3em;
+  width: 15%;
+  float: left;
+  height: 47vh;
+  background-color: blue;
+}
+
+.block{
+  margin-top: 3em;
+  width: 83%;
+  float: right;
+  height: 60vh;
+  background-color: red;
+  display:flex;
+
+}
+
+.sub{
+  margin-top: 3em;
+  width: 17%;
+  height: 37vh;
+  background-color: yellow;
+  width: 26%;
+}
+
+.card-cont{
+  display: grid;
+  column-gap: 1px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.card{
+border-radius: 4px;
+border-color: #61dafb;
+width:250px;
+height: 180px;
+padding: 2px 2px;
+margin: 2px 2px;
+grid-template-columns: 1 1 1;
+}
+
+
+body{
+  margin-top: 2px;
+  margin-left: 2px;
+  padding: 1em;
+
+}
+
+.validatioErr{
+  color:red;
+  margin: 5px 0;
+
+}
+
+.inlineBtn{
+  display: inline;
+  margin-left: 25%;
+  
+}
+button{
+  padding-left: 1px;
+  
+}
+
+.headerNav{
+  
+  background-color: saddlebrown;
+  color: white;
+  height: 150px;
+}
+.headerNav>h1{
+  margin-left: 45%;
+}
+.crewbtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  float: right;
+  margin-right: 20px;
+  border:#282c34 ;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.addbtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  float: right;
+  margin-left: 3px;
+  margin-top: 10px;
+  border:#282c34 ;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+  
+ 
+}
+.crewbtn:hover{
+  background-color: #282c34;
+}
+
+.formPirate{
+  display: inline;
+
+}
+.left{
+
+float: left;
+margin-top: 100px;
+margin-left: 100px;
+width: 30%;
+}
+
+.right{
+float: right;
+margin-top: 100px;
+margin-right: 100px;
+width: 30%;
+}
+input{
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 65px;
+  cursor: pointer;
+  width: 500px;
+  margin-left: 20px;
+}
+
+
+label{
+  font-weight:bolder ;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.PirateCatchPhase{
+  width: 800px;
+}
+
+option,select{
+  margin-bottom: 100px;
+  width: 35%;
+  border-radius: 4px;
+  height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.checkboxlabel{
+margin-top: 0;
+padding: 0;
+}
+
+.crewComp{
+  display: block;
+ background-color: white;
+ height: 150px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ border-radius: 4px;
+}
+
+.message{
+  width: 23%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.data{
+  width: 73%;
+  float: right;
+  display: block;
+
+}
+
+h1{
+  marin-left:45%;
+}
+
+
+.redBtn{
+  color: white;
+  background-color: red;
+  border: black;
+  z-index: 3;
+  /* float: right; */
+  /* margin-left: 3px; */
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.blueBtn{
+  color: white;
+  background-color: blue;
+  border: black;
+  z-index: 3;
+  margin-left: 3px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 1px 3px 1px 1px rgb(15, 15, 15);
+  cursor: pointer;
+  width: 700px;
+}
+
+
+
+.buttons{
+  margin-left: 130px;
+  margin-top: 30px;
+}
+.title{
+  margin-left:50%;
+ 
+}
+
+.main{
+  display: grid;
+  grid-template-columns: auto auto;
+
+  margin-top: 80px;
+  font-size: larger;
+  font-weight: bolder;
+
+
+}
+
+.leftLogo{
+  float: left;
+  width: 65%;
+  margin-left: 30px;
+}
+
+.rightLogo{
+  float: right;
+  width: 80%;
+  height: 35vh;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  
+
+
+}
+
+.titleCenter{
+  margin-left: 24%;
+}
+
+img{
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.true{
+  background-color: #1abc9c;
+}
+
+.false{
+  background-color: #bc1a1a;
+
+}
+.h1Title{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.projectForm{
+  margin-left:20%;
+  text-align: center;
+
+}
+
+.legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+  width: 400px;
+  margin-left: 5%;
+  
+}
+
+.fieldset {
+  display: flex;
+  flex: 1 1 1em;
+  flex-wrap: wrap;
+  margin: 0 0 1em 0;
+
+}
+form{
+  border: #000 1px 1px 1px 1px;
+  border-style: solid;
+  margin-right: 10%;
+}
+
+.fieldset input {
+  flex: 0 1 1em;
+/*   outline: 1px dotted #f00; */
+}
+
+.fieldset label {
+  flex: 1 1 calc(100% - 2em);
+/*   outline: 1px dotted #0f0; */
+}
+
+.fieldset .legend, .fieldset > div {
+  flex: 1 1 100%;
+/*   outline: 1px dotted #00f; */
+}
+
+.fieldset > div:not([aria-hidden]) {
+  margin-left: 1.5em;
+}
+
+.x0{
+  color:red;
+}
+
+.projecttable{
+  /* margin-left: 20%; */
+  margin-right: 10%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  height: 600px;
+position:static ;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+table{
+  height: 600px;
+}
+
+.StartProject{
+  background-color: yellow;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 15px;
+  height: 40px;
+  width: 270px;
+  font-weight: bolder;
+}
+
+
+.MovetoCompleted{
+  background-color: green;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 15px;
+  height: 40px;
+  width: 270px;
+  font-weight: bolder;
+
+}
+
+
+.RemoveProject{
+  background-color: red;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 15px;
+  height: 40px;
+  width: 270px;
+  font-weight: bolder;
+
+}
+
+.ProjectStatusComponent{
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  width: 400px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+th{
+text-align: center;
+font-weight: bolder;
+}
+*{
+  margin-left: 10px;
+  padding-top: 3px;
+
+}
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  height: 400px;
+overflow-y: scroll;
+}
+
+
+.backlog{
+  background-color: rgb(0, 162, 255);
+}
+
+.inProgress{
+  background-color: rgba(255, 255, 0, 0.728);
+
+}
+
+.Completed{
+  background-color: rgb(0, 128, 58);
+
+}
+
+.goToForm{
+  background-color: blue;
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.newProjects{
+  overflow-y: scroll;
+  height: 450px;
+
+}
+
+.newProjects::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.newProjects::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.newProjects::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid slategrey;
+}
+
+.newProjects::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.newProjects::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.newProjects::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+td{
+  width: 500px;
+}
+.inProgressProjects{
+  display: block;
+}
+
+.projectData{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
